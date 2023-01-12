@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body h1 h2 h3 h4 h5 h6 p {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+section {
+    padding: 90px 0;
+    text-align: center;
+}
+
+section.hero-banner {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.hero-banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    font-size: larger;
+}
+
+section.hero-banner .container .content-wrapper {
+    text-align: right;
+    width: 500px;
+}
+
+.content-wrapper h1 {
+    line-height: 80px;
+    color: #fff;
+}
+
+.content-wrapper p {
+    line-height: 30px;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+.content-wrapper button {
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-top: 20px;
+
+}
+
+.content-wrapper button:hover {
+    background-color: #0b77b8;
+    color: rgb(255, 255, 255);
+
+}
+
+/*css about us*/
+section.about-us {
+    text-align: center;
+}
+
+.about-content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.about-content-wrapper .right-content-wrapper {
+
+    padding: 0px 80px 0px 150px;
+    text-align: left;
+}
+
+.about-content-wrapper .right-content-wrapper h2 {
+    
+color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.about-content-wrapper .right-content-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.about-content-wrapper .right-content-wrapper ul li {
+    display: block;
+    padding: 10px;
+    
+}
+
+.about-content-wrapper .right-content-wrapper ul li i {
+    color: rgb(200, 137, 20);
+
+}
+
+/* css my plan */
+section.my-plan .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.iconbox-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 40px;
+}
+
+
+.positive-mind .content-wrapper {
+    padding: 100px 40px;
+    background-image: url(../images/gradient2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.positive-mind .content-wrapper button {
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-top: 20px;
+}
+
+.positive-mind .content-wrapper button:hover {
+    background-color: #ce750f;
+    color: rgb(255, 255, 255);
+
+}
+
+/* css footer*/
+footer {
+    background: #121212;
+    padding: 50px 30px;
+    color: #fff;
+}
+
+.contact_information {
+    width: 50%;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact_information ul {
+    list-style: none;
+    margin-bottom: 10px;
+
+    
+}
+
+.social_wrapper li {
+    display: inline-block;
+    margin: 20px 5px;
+    
+}
+
+.subscribe form input[type="email"] {
+    padding: 10px 20px;
+    width: 84%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #707070;
+    margin-right: 10px;
+    background: transparent;
+    margin: 20px 0px;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    background: #d86304;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin: auto;
+}
+
